@@ -7,9 +7,7 @@ int main (){
 	float average;
 	for(index=0;index<5;index++){
 		printf("%d element :%d\n",index,values[index]);
-	}
-	for (counter=65;counter>=25;counter=counter-10){
-		tot=tot+counter;
+	tot=tot+values[index];
 	}
     printf("Total:%d\n",tot);
 	average=tot/index;
